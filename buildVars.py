@@ -39,9 +39,9 @@ NVDA+Shift+Delete – Clear the clipboard (NVDA announces “Clipboard cleared�
 	# Author(s)
 	addon_author="Rahul Vaniya <vaniyarahul277@gmail.com>",
 	# URL for the add-on documentation support
-	addon_url=None,
+	addon_url="https://github.com/rpccl/nvda-clipboard",
 	# URL for the add-on repository where the source code can be found
-	addon_sourceURL=None,
+	addon_sourceURL="https://github.com/rpccl/nvda-clipboard",
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
