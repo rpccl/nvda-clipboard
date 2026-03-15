@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
-# NVDA addon: Append selected text to clipboard and clear clipboard
+# NVDA addon: NVDA Clipboard
+# Copyright (C) 2026 Rahul Vaniya
+# This file is covered by the GNU General Public License.
 
 import api
 import textInfos
@@ -15,6 +17,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     @script(
         description="Append current selected text to clipboard",
         gesture="kb:NVDA+windows+c",
+        category="NVDA Clipboard"
     )
     def script_appendSelectionToClipboard(self, gesture):
 
@@ -54,8 +57,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 
     @script(
-        description="Clear clipboard",
+        description="Remove all text from clipboard",
         gesture="kb:NVDA+shift+delete",
+        category="NVDA Clipboard",
     )
     def script_clearClipboard(self, gesture):
 
